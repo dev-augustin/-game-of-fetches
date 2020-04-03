@@ -11,7 +11,7 @@ export default class StarkHouse extends Component {
       data: []
     }
   }
-
+/****    using async await     ****/
 //   async componentDidMount() {
 //     try{
 //         const response = await Axios.get("https://www.anapioficeandfire.com/api/houses/362");
@@ -25,7 +25,8 @@ export default class StarkHouse extends Component {
 //       console.log(error);
 // }
 // }
-2
+/*************************************/
+/****** using multiple axios.get */
   componentDidMount() {
 
     Axios.get("https://www.anapioficeandfire.com/api/houses/362").then(res => {
