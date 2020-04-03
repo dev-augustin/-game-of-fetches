@@ -8,6 +8,7 @@ import './App.css';
 // import BaratheonHouse from './components/BaratheonHouse';
 // import RobertAlias from './components/RobertAlias';
 import StarkHouse from './components/StarKHouse';
+import POV_books from './components/POV_books';
 
 
 export default class App extends Component {
@@ -25,6 +26,7 @@ export default class App extends Component {
         <BaratheonHouse/>
         <RobertAlias/> */}
         <StarkHouse/>
+        <POV_books/>
       </div>
     )
   }
