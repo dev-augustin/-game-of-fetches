@@ -31,14 +31,8 @@ export default class HouseTargaryen extends Component {
   render() {
     return (
       <div>
-        <h2>Q: What region is House Targaryen in?</h2>
-        <h3>House Targaryen is in {this.state.data}.</h3>
-        
-      {/* <ul>
-      {this.state.data.born}
-      // {/* {this.state.data.map((recipe, id) => <li key={id}> {recipe.name.born} </li>)} */}
-      {/* // </ul> */} 
-        
+        <h2>2. What region is House Targaryen in?</h2>
+        <h4>House Targaryen is in {this.state.data}.</h4>        
       </div>
     )
   }

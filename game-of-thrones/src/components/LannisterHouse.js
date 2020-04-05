@@ -31,8 +31,8 @@ export default class LannisterHouse extends Component {
   render() {
     return (
       <div>
-        <h2>Q: What's the coat of arms of House Lannister?</h2>
-        <h3>The coat of arms of House Lannister is {this.state.data}.</h3>
+        <h2>3. What's the coat of arms of House Lannister?</h2>
+        <h4>The coat of arms of House Lannister is {this.state.data}.</h4>
         
       {/* <ul>
       {this.state.data.born}

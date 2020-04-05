@@ -31,14 +31,8 @@ export default class RobertAlias extends Component {
   render() {
     return (
       <div>
-        <h2>Q: What is Robert Baratheon's second alias?</h2>
-        <h3>Robert Baratheon's second alias is <em>{this.state.data}</em>.</h3>
-        
-      {/* <ul>
-      {this.state.data.born}
-      // {/* {this.state.data.map((recipe, id) => <li key={id}> {recipe.name.born} </li>)} */}
-      {/* // </ul> */} 
-        
+        <h2>5. What is Robert Baratheon's second alias?</h2>
+        <h4>Robert Baratheon's second alias is <em>{this.state.data}</em>.</h4>
       </div>
     )
   }

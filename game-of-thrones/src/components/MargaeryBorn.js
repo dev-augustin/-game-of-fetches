@@ -31,8 +31,8 @@ export default class MargaeryBorn extends Component {
   render() {
     return (
       <div>
-        <h2>Q: Where was Margaery Tyrell born?</h2>
-        <h3>Margaery Tyrell was born {this.state.data}.</h3>
+        <h2>1. Where was Margaery Tyrell born?</h2>
+        <h4>Margaery Tyrell was born {this.state.data}.</h4>
         
       {/* <ul>
       {this.state.data.born}

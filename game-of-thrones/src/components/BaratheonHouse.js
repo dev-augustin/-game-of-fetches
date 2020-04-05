@@ -31,14 +31,8 @@ export default class BaratheonHouse extends Component {
   render() {
     return (
       <div>
-        <h2>Q: What is the second seat of House Baratheon?</h2>
-        <h3>The second seat of House Baratheon is {this.state.data}.</h3>
-        
-      {/* <ul>
-      {this.state.data.born}
-      // {/* {this.state.data.map((recipe, id) => <li key={id}> {recipe.name.born} </li>)} */}
-      {/* // </ul> */} 
-        
+        <h2>4. What is the second seat of House Baratheon?</h2>
+        <h4>The second seat of House Baratheon is {this.state.data}.</h4>
       </div>
     )
   }
