@@ -1,13 +1,13 @@
 import React, { Component } from 'react'
 import './App.css';
 //import Axios from 'axios';
-// import JonSnowBorn from './components/JonSnowBorn';
-// import MargaeryBorn from './components/MargaeryBorn';
-// import HouseTargaryen from './components/HouseTargaryen';
-// import LannisterHouse from './components/LannisterHouse';
-// import BaratheonHouse from './components/BaratheonHouse';
-// import RobertAlias from './components/RobertAlias';
-//import StarkHouse from './components/StarKHouse';
+import JonSnowBorn from './components/JonSnowBorn';
+import MargaeryBorn from './components/MargaeryBorn';
+import HouseTargaryen from './components/HouseTargaryen';
+import LannisterHouse from './components/LannisterHouse';
+import BaratheonHouse from './components/BaratheonHouse';
+import RobertAlias from './components/RobertAlias';
+import StarkHouse from './components/StarKHouse';
 import BookTitle from './components/BookTitle';
 
 
@@ -19,13 +19,13 @@ export default class App extends Component {
       <div>
         <h1>  Game of Thrones API</h1>
 
-        {/* <JonSnowBorn/>
+        <JonSnowBorn/>
         <MargaeryBorn/>
         <HouseTargaryen/>
         <LannisterHouse/>
         <BaratheonHouse/>
-        <RobertAlias/> */}
-        {/* <StarkHouse/> */}
+        <RobertAlias/> 
+        <StarkHouse/>
         <BookTitle/>
       </div>
     )
